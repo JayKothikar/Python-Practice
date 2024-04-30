@@ -21,11 +21,8 @@ class employee:
 
     def print_info(self):
         print(self.empid,self.name,self.desg,self.__sal,self.project_ids,self.skill,self.company_name,sep=", ")
-        print(type(1),type("ravi"),type("captain"),type(84929),type({4,1}),type("driving"))
+       
 e = employee(1,"ravi","captain",84929,{4,1},"driving")
-
 e.print_info()
-
-
-
-
+ 
+# 1, ravi, captain, 84929, {1, 4}, driving, EMV
